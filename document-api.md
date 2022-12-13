@@ -29,13 +29,13 @@ Returns data for the top ~1000 WinerySwap pairs, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens`](https://dev.winery.land/api/v1/mainnet/assets/tokens)
+## [`/v2/tokens`](https://dev.winery.land/api/v1/mainnet/assets/all-tokens)
 
 Returns the tokens in the top ~1000 pairs on WinerySwap, sorted by reserves.
 
 ### Request
 
-`GET https://dev.winery.land/api/v1/mainnet/assets/tokens`
+`GET https://dev.winery.land/api/v1/mainnet/assets/all-tokens`
 
 ### Response
 
