@@ -4,7 +4,7 @@ All WinerySwap pairs consist of two different tokens. BNB is not a native curren
 
 The canonical WBNB address used by the WinerySwap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
 
-## [`/v2/summary`](https://dev.winery.land/api/v1/mainnet/assets/summary)
+## [`/v1/mainnet/assets/summary`](https://dev.winery.land/api/v1/mainnet/assets/summary)
 
 Returns data for the top ~1000 WinerySwap pairs, sorted by reserves. 
 
@@ -29,7 +29,7 @@ Returns data for the top ~1000 WinerySwap pairs, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens`](https://dev.winery.land/api/v1/mainnet/assets/all-tokens)
+## [`/v1/mainnet/assets/all-tokens`](https://dev.winery.land/api/v1/mainnet/assets/all-tokens)
 
 Returns the tokens in the top ~1000 pairs on WinerySwap, sorted by reserves.
 
@@ -53,7 +53,7 @@ Returns the tokens in the top ~1000 pairs on WinerySwap, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens/0x...`](https://dev.winery.land/api/v1/mainnet/assets/tokens/0xe7eada32caf827d3ba8cb1074830d803c9bd48c3)
+## [`/mainnet/assets/tokens/0x...`](https://dev.winery.land/api/v1/mainnet/assets/tokens/0xe7eada32caf827d3ba8cb1074830d803c9bd48c3)
 
 Returns the token information, based on address.
 
@@ -74,7 +74,7 @@ Returns the token information, based on address.
 }
 ```
 
-## [`/v2/pairs`](https://dev.winery.land/api/v1/mainnet/assets/pairs)
+## [`/v1/mainnet/assets/pairs`](https://dev.winery.land/api/v1/mainnet/assets/pairs)
 
 Returns data for the top ~1000 WinerySwap pairs, sorted by reserves.
 
