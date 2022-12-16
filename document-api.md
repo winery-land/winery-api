@@ -135,7 +135,7 @@ Returns data for last ~30 days WinerySwap volume, liquidity.
         "liquidity": [
           {
                 "date": "...",        // Timestamp
-                "liquidityUSD": "..." // Day's liquidity day in USD
+                "liquidityUSD": "..." // Day's liquidity in USD
             },
             {
                 "date": "...",        // Timestamp
