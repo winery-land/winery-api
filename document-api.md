@@ -120,27 +120,6 @@ Returns data for last ~30 days WinerySwap volume, liquidity.
 
 ```json5
 {
-  "data": {
-    "0x..._0x...": {                  // the asset ids of BNB and BEP20 tokens, joined by an underscore
-      "pair_address": "0x...",        // pair address
-      "base_name": "...",             // token0 name
-      "base_symbol": "...",           // token0 symbol
-      "base_address": "0x...",        // token0 address
-      "quote_name": "...",            // token1 name
-      "quote_symbol": "...",          // token1 symbol
-      "quote_address": "0x...",       // token1 address
-      "price": "...",                 // price denominated in token1/token0
-      "base_volume": "...",           // volume denominated in token0
-      "quote_volume": "...",          // volume denominated in token1
-      "liquidity": "...",             // liquidity denominated in USD
-      "liquidity_BNB": "..."          // liquidity denominated in BNB
-    },
-    // ...
-  }
-}
-
-
-{
     "data": {
         "volume": [
             {
